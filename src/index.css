@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: rgb(105, 48, 228);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: rgb(105, 48, 228);
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 6px;
+}
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border: solid 1px rgb(48, 228, 105);
+}
+.start-screen input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(105, 48, 228);
+  border-radius: 6px;
+}
+.game-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  border: solid 1px rgb(48, 228, 105);
+}
+.game-screen .card {
+  display: flex;
+  border: 1px solid rgb(48, 228, 105);
+ 
+}
+ .computer-label{
+  font-size: 1.2rem;
+  color: rgb(48, 228, 105);
+  margin-bottom: 10px;
+
+}
+.player-label{
+  font-size: 1.2rem;
+  color: rgb(48, 228, 105);
+  margin-bottom: 10px;
+  text-align: left;
+}
+.over-screen {
+  border: 2px solid green;
+  padding: 40px;
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  text-align: center;
+}
+
+.result-text {
+  font-size: 40px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.score-text {
+  font-size: 32px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.again-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.again-btn:hover {
+  background-color: #2980b9;
+}
+.card {
+  display: flex;
+  border: 1px solid #0ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.5rem;
+}
